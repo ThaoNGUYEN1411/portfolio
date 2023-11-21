@@ -1,4 +1,16 @@
 import ProjetLisaBeaute from "/img/lisabeaute.webp";
+import ProjetPromoSimplon from "/img/promoSimplon.webp";
+import ProjetNewStyle from "/img/projet1.webp";
+import LogoHtml from "/img/html.webp";
+import LogoCSS from "/img/css-removebg-preview.webp";
+import LogoJs from "/img/js.webp";
+import LogoReact from "/img/React-icon.svg.webp";
+import LogoNode from "/img/node.webp";
+import LogoGit from "/img/git-removebg-preview.webp";
+import LogoWordPress from "/img/wp-removebg-preview.webp";
+import LogoFigma from "/img/figma.webp";
+import LogoPhotoshop from "/img/photoshop.webp";
+import LogoBootstrap from "/img/Bootstrap.webp";
 
 const Portfolio = () => {
 	return (
@@ -11,7 +23,7 @@ const Portfolio = () => {
 						style={{ width: "25rem" }}
 					>
 						<img
-							src="assets/img/projet1.png"
+							src={ProjetPromoSimplon}
 							className="card-img-top"
 							alt="New style"
 						/>
@@ -28,11 +40,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="card col-lg-4 me-5 pt-4" style={{ width: "25rem" }}>
-						<img
-							src="assets/img/projet2.png"
-							className="card-img-top"
-							alt="..."
-						/>
+						<img src={ProjetNewStyle} className="card-img-top" alt="..." />
 						<div className="card-body">
 							<h5 className="card-title">Kid to kid</h5>
 							<p className="card-text">Wordpress</p>
@@ -67,62 +75,34 @@ const Portfolio = () => {
 				</h3>
 				<ul className="list-logo d-flex list-unstyled">
 					<li>
-						<img src="assets/img/html.png" alt="" className="logo-tech" />
+						<img src={LogoHtml} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/css-removebg-preview.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoCSS} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img src="assets/img/js.png" alt="" className="logo-tech" />
+						<img src={LogoJs} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/React-icon.svg.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoReact} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img src="assets/img/node.webp" alt="" className="logo-tech" />
+						<img src={LogoNode} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/git-removebg-preview.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoGit} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/wp-removebg-preview.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoWordPress} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/fegma-removebg-preview.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoFigma} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/photoshop-removebg-preview.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoPhotoshop} alt="" className="logo-tech" />
 					</li>
 					<li>
-						<img
-							src="assets/img/Bootstrap_logo.svg-removebg-preview.png"
-							alt=""
-							className="logo-tech"
-						/>
+						<img src={LogoBootstrap} alt="" className="logo-tech" />
 					</li>
 				</ul>
 			</section>
