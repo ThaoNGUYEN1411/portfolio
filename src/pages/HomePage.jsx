@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Parcours from "../components/Parcours/Parcours";
 import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
 
 const HomePage = () => {
 	return (
@@ -15,6 +16,7 @@ const HomePage = () => {
 			<Portfolio />
 			<Parcours />
 			<Contact />
+			<Footer />
 		</>
 	);
 };
