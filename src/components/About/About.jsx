@@ -1,4 +1,4 @@
-import React from "react";
+import Accordion from "react-bootstrap/Accordion";
 import ImageAbout from "/img/propos2.webp";
 
 const About = () => {
@@ -16,16 +16,19 @@ const About = () => {
 					</div>
 					<div className="col-lg-8">
 						<p>
-							Ayant une bonne base en mathématiques et en logique, étant
-							sérieuse, rigoureuse, dynamique. Je suis passionnée par la
-							programmation et le numérique. J'ai suivi une formation de créer
-							des sites Web en utilisant CMS (Content Management System) comme
-							Wordpress.Actuellement, je suis en formation développeur Web 7
-							mois intensif chez Simplon. Je recherche une entreprise pour
-							m'accueillir pendant 2 mois de stage (22/5 - 18/7/2023) sans
-							rémunération.
+							Avec une solide base en mathématiques et en logique, je suis
+							sérieuse, rigoureuse et passionnée par la programmation. Après
+							avoir obtenu le titre de Développeur Web Bac +2 lors d'une
+							formation intensive de 7 mois chez Simplon, je me lance dans la
+							formation "Concepteur Développeur d'Applications" chez Simplon.
+							<br />
+							Je suis à la recherche d'une entreprise accueillante pour un stage
+							de 18 mois à partir du 11 mars 2024, avec un rythme de 3 semaines
+							en entreprise et une semaine à l'école. Je suis convaincue que
+							cette expérience sera l'occasion idéale de mettre en pratique mes
+							compétences et de contribuer au succès de votre organisation.
 						</p>
-						<div className="row mt-3">
+						{/* <div className="row mt-3">
 							<div className="col-md-12">
 								<ul>
 									<li>Nom &amp; prénom: Thi Phuong Thao NGUYEN</li>
@@ -33,8 +36,30 @@ const About = () => {
 									<li>Poste: Développeur Web</li>
 								</ul>
 							</div>
-						</div>
-						<div className="mt-3">
+						</div> */}
+						<Accordion defaultActiveKey={["0"]} alwaysOpen>
+							<Accordion.Item eventKey="0">
+								<Accordion.Header>Langues</Accordion.Header>
+								<Accordion.Body>
+									<ul>
+										<li>Français : Niveau avancé</li>
+										<li>Anglais : Niveau intermédiaire</li>
+										<li>Vietnamien : Langue maternelle</li>
+									</ul>
+								</Accordion.Body>
+							</Accordion.Item>
+							<Accordion.Item eventKey="1">
+								<Accordion.Header>Centre d'intêret</Accordion.Header>
+								<Accordion.Body>
+									<ul>
+										<li>Musique</li>
+										<li>Yoga</li>
+										<li>Lecture</li>
+									</ul>
+								</Accordion.Body>
+							</Accordion.Item>
+						</Accordion>
+						{/* <div className="mt-3">
 							<div className="accordion" id="accor">
 								<div className="accordion-item">
 									<h2 className="accordion-header pt-0">
@@ -91,7 +116,7 @@ const About = () => {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

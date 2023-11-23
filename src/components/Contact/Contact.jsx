@@ -7,7 +7,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contact = () => {
 	return (
-		<div className="bg-contact py-5">
+		<div className="bg-contact py-5" id="contact">
 			<section className="contact-page container">
 				<div className="text-center">
 					<h2 className="text-uppercase">Contact</h2>
@@ -23,14 +23,14 @@ const Contact = () => {
 								phuongthaolyon@gmail.com
 							</span>
 						</p>
-						<p>
+						{/* <p>
 							N'hésitez pas à m'envoyer un message ou à me contacter si vous
 							avez des questions,
 							<br /> des opportunités de collaboration ou simplement pour
 							échanger autour de nos passions communes.
 							<br /> Je suis toujours ouverte à de nouvelles discussions et de
 							nouvelles rencontres !
-						</p>
+						</p> */}
 					</div>
 				</div>
 				<div className="row">

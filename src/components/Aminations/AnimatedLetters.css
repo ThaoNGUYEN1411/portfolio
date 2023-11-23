@@ -16,7 +16,8 @@
   
   .text-animate-hover:hover{
     animation: rubberBand 1s;
-    color:  #e5b77f;
+    /* color:  #e5b77f; */
+    color: #337fb9 ;
   }
   /* boucle for est yn prépocesseur CSS une boucle @for est utilisée pour générer ces sélecteurs avec des valeurs de animation-delay différentes en fonction de la variable $i. Chaque sélecteur .text-animate._#{$i} reçoit une valeur de animation-delay égale à #{$i / 10}s. */
   /* @for $i from 1 through 35 {
