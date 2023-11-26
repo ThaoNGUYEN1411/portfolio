@@ -7,7 +7,7 @@ function WhileHover({ children }) {
 			whileHover={{
 				cursor: "pointer",
 				scale: 1.05,
-				backgroundColor: "var(--color-dark)",
+				// backgroundColor: "var(--color-dark)",
 				transition: { duration: 0.3 },
 			}}
 		>
