@@ -1,13 +1,13 @@
 const Parcours = () => {
 	return (
 		<section id="parcours">
-			<div class="container mt-4 pt-4">
-				<h2 class="text-center text-uppercase pb-3 pb-4 mt-3">Parcours</h2>
-				<div class="row">
-					<div class="col-lg-6 border-end mb-5">
-						<h3 class="text-danger text-center mb-4">Formation</h3>
-						<article class="mt-3">
-							<h4 class="h4-color">
+			<div className="container mt-4 pt-4">
+				<h2 className="text-center text-uppercase pb-3 pb-4 mt-3">Parcours</h2>
+				<div className="row">
+					<div className="col-lg-6 border-end mb-5">
+						<h3 className="text-danger text-center mb-4">Formation</h3>
+						<article className="mt-3">
+							<h4 className="h4-color">
 								Simplon - Formation Développeur Web et Web mobile
 							</h4>
 							<p>03/2023 - 10/2023</p>
@@ -22,7 +22,7 @@ const Parcours = () => {
 								</li>
 							</ul>
 						</article>
-						<article class="mt-3">
+						<article className="mt-3">
 							<h4>
 								Simplon - Formation Préparation aux métiers du développeur Web
 							</h4>
@@ -32,7 +32,7 @@ const Parcours = () => {
 								de contenus (CMS).
 							</p>
 						</article>
-						<article class="mt-3">
+						<article className="mt-3">
 							<h4>Free Compétence (Antony, France) - Certificat CLéA</h4>
 							<p>03/2022 - 06/2022</p>
 							<ul>
@@ -40,15 +40,17 @@ const Parcours = () => {
 								<li>L’utilisation des outilles numérique.</li>
 							</ul>
 						</article>
-						<article class="mt-3">
+						<article className="mt-3">
 							<h4>Académie Bancaire</h4>
 							<p>Diplôme licence finance et banque (Bac +4, Enic-naric)</p>
 							<p>Hanoi, Vietnam 2010 - 2014</p>
 						</article>
 					</div>
-					<div class="col-lg-6 mb-5 ps-5">
-						<h3 class="text-danger text-center mb-4">Parcours professionnel</h3>
-						<article class="mt-3">
+					<div className="col-lg-6 mb-5 ps-5">
+						<h3 className="text-danger text-center mb-4">
+							Parcours professionnel
+						</h3>
+						<article className="mt-3">
 							<h4>Stage de développeur Web</h4>
 							<p>PARIS, FRANCE| 05/2023 - 07/2023</p>
 							<ul>
@@ -63,7 +65,7 @@ const Parcours = () => {
 								</li>
 							</ul>
 						</article>
-						<article class="mt-3">
+						<article className="mt-3">
 							<h4>Garde d'enfant à domicile</h4>
 							<p>ANTONY, FRANCE| 09/2022 - 12/2015</p>
 							<ul>
@@ -71,7 +73,7 @@ const Parcours = () => {
 								<li>Organiser des activités ludiques</li>
 							</ul>
 						</article>
-						<article class="mt-3">
+						<article className="mt-3">
 							<h4>Gérante de mon propre magasin</h4>
 							<p>INDEPENDANT| 2016 - 2021</p>
 							<ul>
@@ -83,7 +85,7 @@ const Parcours = () => {
 								</li>
 							</ul>
 						</article>
-						<article class="mt-3">
+						<article className="mt-3">
 							<h4>Conseillère clientèle</h4>
 							<p>HDBANK, HANOI, VIETNAM| 2014 - 2015</p>
 							<ul>

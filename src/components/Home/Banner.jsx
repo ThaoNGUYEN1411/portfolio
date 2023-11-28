@@ -47,7 +47,7 @@ const Banner = () => {
 			{/* <WhileHover> */}
 			<div>
 				<article className="hero-text mx-2">
-					<div className="img-th d-flex justify-content-center">
+					<div className="d-flex justify-content-center">
 						<img src={Avatar} alt="Avatar" id="avatar" />
 						<h1 className="hero-title pb-4 display-1 fw-semibold text-center pe-4 me-lg-5">
 							<AnimatedLetters
@@ -55,20 +55,19 @@ const Banner = () => {
 								strArray={nameArray}
 								idx={5}
 							/>
-							{/* Thao NGUYEN */}
 							<br />
 							<AnimatedLetters
 								letterClass={letterClass}
 								strArray={jobArray}
 								idx={17}
 							/>
-							{/* Développeuse Web */}
 						</h1>
 					</div>
 
-					<h3 className="hero-desc display-6 fw-normal text-center mx-auto mt-3 mb-5 pe-4 py-4">
-						En cherchant un stage pendant 2 mois à compter du 22 mais 2023,
-						n’hésitez pas à me contacter!
+					<h3 className="hero-desc fw-normal text-center mx-auto mt-3 mb-5 pe-4 py-4">
+						À la recherche d'une alternance en développement web, avec un rythme
+						de 3 semaines en entreprise et une semaine à l'école, à partir du 11
+						mars 2024. N'hésitez pas à me contacter !
 					</h3>
 				</article>
 
@@ -76,13 +75,12 @@ const Banner = () => {
 					<a
 						href="#propos"
 						className="btn btn-primary bt-style"
-						target="_blank"
 						rel="noreferrer"
 					>
 						En savoir plus
 					</a>
 					<a
-						href="assets/img/Thao-NGUYEN-Developpeuse-web-v2.pdf"
+						href="/public/img/CV_NGUYEN_Dev_Web_v2.pdf"
 						className="btn btn-primary bt-style"
 						target="_blank"
 						rel="noreferrer"
